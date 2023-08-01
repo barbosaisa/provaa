@@ -1,0 +1,107 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #10166b3f;
+    margin: 0;
+    padding: 0;
+    background-image:url(https://th.bing.com/th/id/R.30f521ed242cf0fa78c75225de726623?rik=joVdubp3opqgWw&pid=ImgRaw&r=0)
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #91a0c92c;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0a36669a;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1784f8cc;
+}
+
+#resultMessage {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ola {
+    background: #080F61;
+    background: radial-gradient(circle farthest-corner at center center, #080F61 0%, #6661FF 25%, #47A3FF 50%, #40DFFF 75%, #06173B 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.Dia{
+    color: #13138883;
+  
+}
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 60px;
+    text-align: center;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	85%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+	75%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	69% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #ffffff00 ; text-align:center }
